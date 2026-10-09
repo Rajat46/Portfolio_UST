@@ -368,25 +368,26 @@
       align-self: center;
     }
 
-    .nav-back-cta {
+        .nav-back-cta {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
-      height: 32px;
-      padding: 0 16px;
+      padding: 8px 16px;
       box-sizing: border-box;
-      font-family: var(--font-inter-tight, "Inter Tight", sans-serif);
+      font-family: var(--font-inter, sans-serif);
       font-size: 13px;
-      font-weight: 600;
+      font-weight: 500;
       line-height: 1;
-      letter-spacing: -0.01em;
-      color: #000000;
-      background: #ffffff;
-      border-radius: 9999px;
+      color: var(--token-text-solid, #000);
+      background: transparent;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
       text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      transition: background-color 0.2s ease;
+      white-space: nowrap;
+      vertical-align: middle;
+      box-shadow: none;
     }
 
     .nav-back-cta span {
@@ -402,8 +403,8 @@
     }
 
     .nav-back-cta:hover {
-      transform: scale(1.03);
-      background: #f4f4f4;
+      background-color: rgba(0, 0, 0, 0.05);
+      transform: none;
     }
 
     .nav-back-cta:hover svg {
@@ -427,15 +428,15 @@
 
   <header class="header-fixed-wrap" id="fixedCapsuleHeader">
     <nav class="nav-glass-capsule">
-      <a href="index.html#work" class="nav-logo" title="Rajat Bhandari Portfolio">
+      <a href="index.html#case-studies" class="nav-logo" title="Rajat Bhandari Portfolio">
         <span>Rajat Bhandari</span>
       </a>
       <div class="nav-divider" aria-hidden="true"></div>
-      <a href="index.html#work" class="nav-back-cta">
+      <a href="index.html#case-studies" class="nav-back-cta">
         <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M13 8H3M7 12L3 8l4-4"/>
         </svg>
-        <span>Back to Portfolio</span>
+        <span>Back to Home</span>
       </a>
     </nav>
   </header>
@@ -464,7 +465,7 @@
       </div>
       <div class="meta-item">
         <strong>Outcome</strong>
-        Dell CSAT moved from 3.5 to a consistent 4.2+ over 12 months
+        Dell CSAT moved from 3.5 to a consistent 4.2+ over 14 months · 2 designers promoted to Senior roles · co-authored UX course became the primary onboarding asset
       </div>
     </div>
     </div>
@@ -672,13 +673,19 @@
 
 <section class="content-block">
   <h2 id="changed">06. What Changed</h2>
-    <p>I wanted the program to be measured by more than participation. Over the following 12 months, the indicators we were trying to improve moved together with the program.</p>
+    <p>I wanted the program to be measured by more than participation. Over the following 14 months, the indicators we were trying to improve moved together with the program.</p>
 
     <h3>6.1 Client satisfaction: 3.5 → 4.2+ CSAT</h3>
-    <p>Dell CSAT moved from 3.5 to a consistent 4.2+ over the 12-month period. For a services organization, client satisfaction isn't simply an internal culture metric. It is closely connected to the health of the client relationship and, ultimately, the business.</p>
+    <p>Dell CSAT moved from 3.5 to a consistent 4.2+ over the 14-month period. For a services organization, client satisfaction isn't simply an internal culture metric. It is closely connected to the health of the client relationship and, ultimately, the business.</p>
 
-    <h3>6.2 The system lasted</h3>
-    <p>The final test wasn't whether people participated for a few weeks because something was new. It was whether the system continued to work after the novelty disappeared. <strong>It operated across the full 12-month period.</strong></p>
+    <h3>6.2 Designer growth: 2 designers promoted to Senior roles</h3>
+    <p>Aakar didn't create those promotions by itself. What it did was create a more structured environment in which contribution, quality, discipline, and growth became more visible.</p>
+
+    <h3>6.3 Knowledge became an asset</h3>
+    <p>The team also co-authored a UX course that became the primary onboarding asset for new designers joining the account. Knowledge that had previously lived inside individual designers became something the team could reuse.</p>
+
+    <h3>6.4 The system lasted</h3>
+    <p>The final test wasn't whether people participated for a few weeks because something was new. It was whether the system continued to work after the novelty disappeared. <strong>It operated across the full 14-month period.</strong></p>
 
     
 </section>
